@@ -1,0 +1,14 @@
+div.forward div.backward
+{
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+
+div.backward
+{
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
