@@ -10,7 +10,7 @@ var paragraph2sentences = function(para) {
   container.css(font);
   container.css({'visibility': 'hidden'});
   container.width(para.width());
-  container.appendTo(body);
+  para.after(container);
   var sentence = words[0];
   container.append(words[0]);
   var init_height = container.height();
