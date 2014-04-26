@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Boustrophedon",
   "description": "Boustrophedon in your browser.",
-  "version": "0.1",
+  "version": "0.2",
   "content_scripts": [{
     "matches": ["http://*/*"],
     "js": ["jquery-2.1.0.min.js", "boustrophedon.js"],
