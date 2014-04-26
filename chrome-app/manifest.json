@@ -1,11 +1,15 @@
 {
-  "name": "Hello World!",
-  "description": "My first Chrome App.",
+  "manifest_version": 2,
+  "name": "Boustrephedon",
+  "description": "Boustrephedon in your browser.",
   "version": "0.1",
-  "app": {
-    "background": {
-      "scripts": ["background.js"]
-    }
+  "content_scripts": [{
+    "matches": ["http://*/*"],
+    "js": ["jquery-2.1.0.min.js", "boustrephedon.js"],
+    "css": ["boustrephedon.css"]
+  }],
+  "browser_action": {
+    "default_icon": "calculator-16.png"
   },
   "icons": { "16": "calculator-16.png", "128": "calculator-128.png" }
 }
