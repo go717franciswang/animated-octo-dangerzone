@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "Boustrephedon",
-  "description": "Boustrephedon in your browser.",
+  "name": "Boustrophedon",
+  "description": "Boustrophedon in your browser.",
   "version": "0.1",
   "content_scripts": [{
     "matches": ["http://*/*"],
-    "js": ["jquery-2.1.0.min.js", "boustrephedon.js"],
-    "css": ["boustrephedon.css"]
+    "js": ["jquery-2.1.0.min.js", "boustrophedon.js"],
+    "css": ["boustrophedon.css"]
   }],
   "browser_action": {
     "default_icon": "calculator-16.png"
